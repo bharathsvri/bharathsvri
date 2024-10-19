@@ -1,3 +1,2 @@
-## Hii I am Bharath ##
-<br/>
-## Software Developer ##
+## Hii I am Bharath 
+### Software Developer 
