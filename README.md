@@ -83,8 +83,8 @@
 
 ## 📫 Connect With Me
 
-- LinkedIn: (Add your LinkedIn link here)
-- Email: (Add your email here)
+- LinkedIn: [Bharath Pandi](https://www.linkedin.com/in/bharathsvri/)
+- Email: [Bharath](mailto:bharathsvri@gmail.com)
 
 ---
 
