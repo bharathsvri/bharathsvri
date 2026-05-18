@@ -43,7 +43,7 @@ I’m a Java Developer with 1.3+ years of experience in building and maintaining
 - Developed backend services using Java, Spring Boot, and PostgreSQL
 - Worked with AWS CloudWatch, AWS CLI, Grafana, GitLab, and JIRA
 
-### Customer Relationship Management (CRM) System
+### Customer Complaint Management System
 - Built and maintained modules using Java, Spring Boot, and Angular
 - Worked with SAP Mashup Integration, Azure Data Lake, Azure DevOps, Azure CI/CD, and Azure App Service
 
