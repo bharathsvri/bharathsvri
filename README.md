@@ -1,10 +1,17 @@
 # Hi there 👋
 
-I’m a Java Developer with 1.3+ years of experience in building and maintaining enterprise applications using Java and modern web technologies. Currently working at MitrahSoft Solutions Pvt. Ltd. as a Software Developer, contributing to scalable and business-critical applications across multiple domains.
+I’m a Software Developer with 1.3+ years of experience in building and maintaining enterprise applications using Java and modern web technologies. Currently working at MitrahSoft Solutions Pvt. Ltd. as a Software Developer, contributing to scalable and business-critical applications across multiple domains.
+
+In addition to enterprise backend development, I develop Android applications using Kotlin, manage a Google Play Console developer account with published apps on the Google Play Store, and create tech content as the founder of the [B47 Tech](https://www.youtube.com/@B47Tech) YouTube channel.
 
 ---
 
-## 🚀 Tech Stack
+## 🚀 Tech Stack & Skills
+
+### Android & Mobile Development
+- Kotlin
+- Android Application Development
+- Google Play Console (Google Play Developer Account & App Publishing)
 
 ### Backend
 - Java
@@ -37,23 +44,8 @@ I’m a Java Developer with 1.3+ years of experience in building and maintaining
 
 ---
 
-## 💼 Project Experience
-
-### Forex Card Management System
-- Developed backend services using Java, Spring Boot, and PostgreSQL
-- Worked with AWS CloudWatch, AWS CLI, Grafana, GitLab, and JIRA
-
-### Customer Complaint Management System
-- Built and maintained modules using Java, Spring Boot, and Angular
-- Worked with SAP Mashup Integration, Azure Data Lake, Azure DevOps, Azure CI/CD, and Azure App Service
-
-### Human Resource Management (HRM) System
-- Developed backend functionalities using Java, Spring Boot, and PostgreSQL
-- Used Bitbucket and JIRA for version control and project tracking
-
-### Construction Management Application
-- Currently working with Java, Vue.js, GitLab, and JIRA
-- Contributing to scalable construction management solutions
+## 🎥 Content Creation
+- **Founder of B47 Tech**: Creating tech content and tutorials on YouTube 👉 [@B47Tech](https://www.youtube.com/@B47Tech)
 
 ---
 
@@ -66,6 +58,7 @@ I’m a Java Developer with 1.3+ years of experience in building and maintaining
 ---
 
 ## 📫 Connect With Me
+- YouTube: [B47 Tech (@B47Tech)](https://www.youtube.com/@B47Tech)
 - GitHub: [github.com/bharathsvri](https://github.com/bharathsvri)
 - LinkedIn: [linkedin.com/in/bharathsvri](https://www.linkedin.com/in/bharathsvri/)
 
