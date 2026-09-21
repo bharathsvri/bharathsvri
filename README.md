@@ -1,6 +1,6 @@
 # Hi there 👋
 
-I’m a Software Developer with 1.3+ years of experience in building and maintaining enterprise applications using Java and modern web technologies. Currently working at MitrahSoft Solutions Pvt. Ltd. as a Software Developer, contributing to scalable and business-critical applications across multiple domains.
+I’m an Associate Software Developer with <!-- EXPERIENCE_START -->1.5+ years<!-- EXPERIENCE_END --> of experience in building and maintaining enterprise applications using Java and modern web technologies, contributing to scalable and business-critical applications across multiple domains.
 
 In addition to enterprise backend development, I develop Android applications using Kotlin, manage a Google Play Console developer account with published apps on the Google Play Store, and create tech content as the founder of the [B47 Tech](https://www.youtube.com/@B47Tech) YouTube channel.
 

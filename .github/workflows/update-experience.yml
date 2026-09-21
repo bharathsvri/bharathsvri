@@ -1,0 +1,55 @@
+name: Auto Update Experience
+
+on:
+  schedule:
+    # Runs on the 1st of every month at 00:00 UTC
+    - cron: '0 0 1 * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-experience:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Calculate Experience and Update README
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            
+            // Joining Date: 19-03-2025 (March 19, 2025)
+            const startDate = new Date(2025, 2, 19); // 0-indexed month: 2 = March
+            const today = new Date();
+            
+            let totalMonths = (today.getFullYear() - startDate.getFullYear()) * 12 + (today.getMonth() - startDate.getMonth());
+            if (today.getDate() < startDate.getDate()) {
+              totalMonths--;
+            }
+            if (totalMonths < 0) totalMonths = 0;
+            
+            const rawYears = (totalMonths / 12).toFixed(1);
+            const formattedYears = rawYears.replace(/\.0$/, '');
+            const expText = `${formattedYears}+ years`;
+            
+            const readmePath = 'README.md';
+            let readme = fs.readFileSync(readmePath, 'utf8');
+            const expRegex = /<!-- EXPERIENCE_START -->[\s\S]*?<!-- EXPERIENCE_END -->/;
+            
+            if (expRegex.test(readme)) {
+              readme = readme.replace(expRegex, `<!-- EXPERIENCE_START -->${expText}<!-- EXPERIENCE_END -->`);
+              fs.writeFileSync(readmePath, readme, 'utf8');
+              console.log(`Updated experience to: ${expText}`);
+            } else {
+              console.error('Placeholder markers not found in README.md');
+            }
+
+      - name: Commit and Push changes
+        run: |
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git diff --quiet README.md || (git add README.md && git commit -m "chore: auto-update years of experience" && git push)
